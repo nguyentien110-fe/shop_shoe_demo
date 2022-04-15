@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Shop Shoe</title>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-QR header__navbar-item--separate">
+                            <!--Header QR Code-->
+                            Tải ứng dụng
+                            <div class="header__QR">
+                                <img src="./img/QR Code.png" alt="QR Code" class="header__QR-img">
+                                <div class="header__QR-apps">
+                                    <a href="" class="header__QR-link">
+                                        <img src="./img/GG Play.png" alt="Google Play" class="header__QR-download-img">
+                                    </a>
+                                    <a href="" class="header__QR-link">
+                                        <img src="./img/App Store.png" alt="App Store" class="header__QR-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="https://www.facebook.com/nguyentienFE/" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCV1J7vjvwYFX5Xj3H41le_w" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i> Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <div class="header__notify-header">
+                                    <h3>Thông báo mới</h3>
+                                </div>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./img/shoe1.jpg" alt="ảnh 1" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Giày Thể Thao XSPORT Ni.ke Air Max 97</span>
+                                                <span class="header__notify-description">Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./img/shoe2.jpg" alt="ảnh 2" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Giày Thể Thao XSPORT Ni.ke air force 1 Rep 1:1</span>
+                                                <span class="header__notify-description">Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./img/shoe3.jpg" alt="ảnh 3" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Giày Thể Thao XSPORT Van.s Old Skool Cá Mập</span>
+                                                <span class="header__notify-description">Chất liệu cao cấp, bền đẹp theo thời gian. Thiết kế thời trang. Kiểu dáng phong cách. Độ bền cao. Dễ phối đồ.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">More</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-question-circle"></i> Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Sign up</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Sign in</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <a href="../login/login.html" target="_blank">
+                                <span class="header__navbar-user-name">
+                                    <i class="fa-solid fa-user"></i>
+                                    Đăng nhập / Đăng ký
+                                </span>
+                            </a>
+                            <!-- <img src="./img/ava1.jpg" alt="avatar" class="header__navbar-user-img"> -->
+
+                            <!-- <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">My profile</a>
+                                </li>
+
+                                <li class="header__navbar-user-item">
+                                    <a href="">My address</a>
+                                </li>
+
+                                <li class="header__navbar-user-item">
+                                    <a href="">My order</a>
+                                </li>
+
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Log out</a>
+                                </li>
+
+                            </ul> -->
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search hide-on-tablet">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+                    <div class="header__logo hide-on-tablet">
+                        <a href="" class="header__logo-link">
+                            <img src="./img/logo8.png" alt="logo" class="header__logo-img">
+                        </a>
+                    </div>
+
+                    <!-- Search -->
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" id="filter" class="header__search-input" placeholder="Tìm sản phẩm mong muốn...">
+
+                            <!-- Search histoty -->
+                            <div class="header__search-history products">
+                                <h3>Loading...</h3>
+
+                                <!-- <h3 class="header__search-history-heading">Search history</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">12131231</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">12131231</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">12131231</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">12131231</a>
+                                    </li>
+                                </ul> -->
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-lable">Trong cửa hàng</span>
+                            <i class="header__search-select-icon fas fa-angle-down"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--separate header__search-option-item--active">
+                                    <span>Trong cửa hàng</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài cửa hàng</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+
+                    <!-- Cart -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+
+                            <!-- No cart: header__cart-list-no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./img/anh2.png" alt="no cart" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">Không có sản phẩm</span>
+
+                                <h4 class="header__cart-heading">Sản phẩm đã được thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="https://giayxshop.vn/wp-content/uploads/2019/02/MG_5040.jpg" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">GIÀY THỂ THAO XSPORT FI.LA DISRUPTOR 2 FULL TRẮNG REP</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">550.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    IN STOCK
+                                                </span>
+                                                <span class="header__cart-item-remove">Remove</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://giayxshop.vn/wp-content/uploads/2020/12/z2216648865977_839d88b860654be85724ede836466dd6-scaled.jpg" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">GIÀY THỂ THAO XSPORT MLB F1</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">400.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    IN STOCK
+                                                </span>
+                                                <span class="header__cart-item-remove">Remove</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://giayxshop.vn/wp-content/uploads/2021/03/z2364600899392_5805cf420ed2506c90c7b87aa0e43222-scaled.jpg" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">GIÀY THỂ THAO XSPORT ADD PROPHERE REP</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">500.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-quantity">3</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    OUT OF STOCK
+                                                </span>
+                                                <span class="header__cart-item-remove">Remove</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="../cart/cart.html" target="_blank" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Tất cả</a>
+                </li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="" class="header__sort-link">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán chạy nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fas fa-list-ul"></i> Giỏ hàng
+                            </h3>
+
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Giày</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sản phẩm mới nhất</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Sản phẩm bán chạy nhất</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+
+                            <div class="prod-menu">
+                                <button type-prod="all" class="home-filter__btn btn active">Tất cả</button>
+                                <button type-prod="latest" class="home-filter__btn btn">Mới nhất</button>
+                                <button type-prod="selling" class="home-filter__btn btn">Bán chạy nhất</button>
+                            </div>
+
+                            <div class="select-input">
+                                <span class="select-input__lable">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <!-- List option -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá: thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">sport shoes</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">men's loafers</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">derby</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">oxford</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">brogue</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">monk</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">slip-ons</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">boat</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">sneakers</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">chelsea</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">chukka</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">espadrilles</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+
+                        <div class="home-product">
+                            <div class="row sm-gutter prod-list">
+                                <!-- Product item -->
+                                <div type-prod="selling" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2019/02/MG_5040.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Fi.La Disruptor 2 Full Trắng REP</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">900.000đ</span>
+                                            <span class="home-product-item__price-curent">550.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">39%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="selling" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2018/12/xoa-phong-180-1.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Fi.La Disruptor 2 Full Trắng REP</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">450.000đ</span>
+                                            <span class="home-product-item__price-curent">99.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">67%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="latest" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/10/z2115186104115_6fae68cc7e828689c6fa3ed3ba4bfd37.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Van.s Vault Old Skool REP</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">350.000đ</span>
+                                            <span class="home-product-item__price-curent">300.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">14.3%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="selling" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/12/z2253852965598_390f8e1ed4c750334e3951df7fd16eba-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Ni.ke Zoom 211</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">550.000đ</span>
+                                            <span class="home-product-item__price-curent">450.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">18.2%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="latest" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/12/z2216648865977_839d88b860654be85724ede836466dd6-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT MLB F1</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">500.000đ</span>
+                                            <span class="home-product-item__price-curent">400.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">18.2%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="selling" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2021/03/z2364600899392_5805cf420ed2506c90c7b87aa0e43222-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT ADD Prophere REP</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">850.000đ</span>
+                                            <span class="home-product-item__price-curent">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">29.5%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="selling" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/12/z2216607970361_185bd764fbbfc09647e48d3fff39da1c-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày XSPORT ADD Alphabounce Beyond REP</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.000.000đ</span>
+                                            <span class="home-product-item__price-curent">600.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">40%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="selling" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/12/z2215120611811_8c4046ed2e92811841c306a21c05b58f-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT ADD 2003 SF</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">600.000đ</span>
+                                            <span class="home-product-item__price-curent">480.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">150 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">20%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="latest" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/12/z2252068962389_6e5c67cf6eb93944591527ac50f17553-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Ni.ke Jordan 1 High REP</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">850.000đ</span>
+                                            <span class="home-product-item__price-curent">550.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">250 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">35.3%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="selling" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2021/03/z2364600867804_b28049d8ce5a1d20d9acd4e0f0ecebfe-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Ni.ke Zoom 211</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.000.000đ</span>
+                                            <span class="home-product-item__price-curent">800.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">20%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="selling" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2021/01/z2261641074065_2eb5b01a94a0ba2b271453bc818c5a60-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT MCQ Da Trắng Dior SF</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">500.000đ</span>
+                                            <span class="home-product-item__price-curent">300.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">40%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="selling" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2021/04/z2412365784315_8c20f64879f3762e4dc21876ad52081f-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT New Balance 300 Rep 1:1</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">850.000đ</span>
+                                            <span class="home-product-item__price-curent">550.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">29.5%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="latest" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/11/z2158675478925_cc3605e817530c0a2bce3ea9a2f0278d.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Ni.ke Jordan 1 F1</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">400.000đ</span>
+                                            <span class="home-product-item__price-curent">320.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">20%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="selling" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2021/01/z2265026840604_f55cc9c4a7280d01c57394c68f99deb2-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT ADD Superstar Mũi sò SF</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">550.000đ</span>
+                                            <span class="home-product-item__price-curent">400.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">27.3%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div type-prod="selling" class="col l-2-4 m-4 c-6 prod-item">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/10/MG_7324.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT A87 mềm nhẹ</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">450.000đ</span>
+                                            <span class="home-product-item__price-curent">360.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">300 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">42.3%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/09/z2077558139834_0f316f9fba385332cef6075b3712c126.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT A102</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">450.000đ</span>
+                                            <span class="home-product-item__price-curent">360.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">200 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">20%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2018/12/MG_0468.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Yeezy Boost REP</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">850.000đ</span>
+                                            <span class="home-product-item__price-curent">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">29.5%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2021/01/z2276773476519_48b72367679d7c6a462779bf3946ce35-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT New BL 574 Rep 1:1</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">900.000đ</span>
+                                            <span class="home-product-item__price-curent">600.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">33.4%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/10/z2111751907279_aa62b331d5e237d2adb27209a2b98692.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Van.s Classic Mickey</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">350.000đ</span>
+                                            <span class="home-product-item__price-curent">250.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">28.6%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2019/02/MG_4974.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Ni.ke Air Max 97</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">850.000đ</span>
+                                            <span class="home-product-item__price-curent">550.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">29.5%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2021/02/z2342397245100_e2c849dcb759084f828202ee6024f0eb-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT GC F1</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">400.000đ</span>
+                                            <span class="home-product-item__price-curent">250.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">37.5%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/06/MG_8961.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Ni.ke force 1 shadow F1</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">400.000đ</span>
+                                            <span class="home-product-item__price-curent">320.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">45%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/11/z2139139865084_7ac2ac1974d6fed8d41b875d69912092.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT MCQ REP 1:1</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.000.000đ</span>
+                                            <span class="home-product-item__price-curent">750.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">25%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/09/z2077503049735_999c450727bb88232fa43faf8e753103.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Ni.ke air shadow Rep 1:1</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">850.000đ</span>
+                                            <span class="home-product-item__price-curent">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">41.2%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://giayxshop.vn/wp-content/uploads/2020/12/z2220226638113_4ea9d07f379daf58d6b14b6812026c14-scaled.jpg)"></div>
+                                        <div class="home-product-item__name">Giày Thể Thao XSPORT Adi.das V07</div>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">550.000đ</span>
+                                            <span class="home-product-item__price-curent">450.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">1000 đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">18.2%</span>
+                                            <span class="home-product-item__sale-off-label">giảm giá</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="#" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">6</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide footer__content">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Trung tâm mua sắm giày</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Hướng dẫn mua sắm</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Giới thiệu về cửa hàng</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Giỏ hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Giày thể thao</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Giày thời trang</a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Phụ kiện giày</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a target="_blank" href="https://www.facebook.com/nguyentienFE/" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook-square"></i> Facebook
+                                </a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a target="_blank" href="https://www.youtube.com/channel/UCV1J7vjvwYFX5Xj3H41le_w/featured" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-youtube-square"></i> Youtube
+                                </a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram-square"></i> Instgram
+                                </a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-linkedin"></i> LinkedIn
+                                </a>
+                            </li>
+
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-twitter-square"></i> Twitter
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading">Tải ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="./img/QR Code.png" alt="Download QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.shopee.vn" class="footer__download-app-link">
+                                    <img src="./img/GG Play.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
+
+                                <a target="_blank" href="https://apps.apple.com/vn/app/shopee-4-4-g%C3%AC-c%C5%A9ng-r%E1%BA%BB/id959841449" class="footer__download-app-link">
+                                    <img src="./img/App Store.png" alt="App Store" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text">© Copyright 2020 - 2021 Nguyễn Văn Tiến</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--Modal-->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body"> -->
+    <!-- Register form -->
+    <!-- <div class="authen-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">SIGN UP</h3>
+                        <span class="auth-form__switch-btn">SIGN IN</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Enter Email">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Enter Password">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Confirm Password">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            By registering, you agree to our
+                            <a href="" class="auth-form__text-link">Terms of service</a> &
+                            <a href="" class="auth-form__text-link">Privacy Policy</a>
+                        </p>
+
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__controls-back">BACK</button>
+                        <button class="btn btn--primary">SIGN UP</button>
+                    </div>
+
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">Sign up with Facebook</span>
+                    </a>
+
+                    <a href="" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google-plus-square"></i>
+                        <span class="auth-form__socials-title">Sign up with Google</span>
+                    </a>
+                </div>
+            </div> -->
+
+    <!-- Login form -->
+    <!-- <div class="authen-form">
+        <div class="auth-form__container">
+            <div class="auth-form__header">
+                <h3 class="auth-form__heading">SIGN IN</h3>
+                <span class="auth-form__switch-btn">SIGN UP</span>
+            </div>
+
+            <div class="auth-form__form">
+                <div class="auth-form__group">
+                    <input type="text" class="auth-form__input" placeholder="Enter Email">
+                </div>
+
+                <div class="auth-form__group">
+                    <input type="password" class="auth-form__input" placeholder="Enter Password">
+                </div>
+            </div>
+
+            <div class="auth-form__aside">
+                <div class="auth-form__help">
+                    <a href="" class="auth-form__help-link auth-form__help-forgot">Forgotten PSassword </a>
+                    <span class="auth-form__help-separate"></span>
+                    <a href="" class="auth-form__help-link">Help?</a>
+                </div>
+            </div>
+
+            <div class="auth-form__controls">
+                <button class="btn btn--normal auth-form__controls-back">BACK</button>
+                <button class="btn btn--primary">SIGN IN</button>
+            </div>
+
+        </div>
+
+        <div class="auth-form__socials">
+            <a href="" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                <span class="auth-form__socials-title">Sign in with Facebook</span>
+            </a>
+
+            <a href="" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                <i class="auth-form__socials-icon fab fa-google-plus-square"></i>
+                <span class="auth-form__socials-title">Sign in with Google</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    </div> -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
