@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resp-validator.css">
+    <link rel="stylesheet" href="./validator.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card alt">
+            <h1 class="title">Đăng nhập</h1>
+            <form id="form-2" method="post">
+                <div class="input-container">
+                    <input type="text" id="user-name" name="user-name">
+                    <label for="user-name">Tên người dùng</label>
+                    <div class="bar"></div>
+                    <span class="form-message"></span>
+                </div>
+                <div class="input-container">
+                    <input type="password" id="password" name="password">
+                    <label for="password">Mật khẩu</label>
+                    <div class="bar"></div>
+                    <span class="form-message"></span>
+                </div>
+                <div class="button-container">
+                    <button type="submit"><span>Đăng nhập</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./validator.js"></script>
+    <script>
+        Validator({
+            form: '#form-2',
+            inpContSelector: '.input-container',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequired('#user-name'),
+                Validator.minLength('#password', 8)
+            ],
+            onSubmit: (data) => {
+                console.log(data)
+            }
+        });
+    </script>
+</body>
+
+</html>

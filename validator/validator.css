@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e9e9e9;
+    color: #666666;
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    user-select: none;
+}
+
+.invalid {
+    color: red;
+}
+
+
+/* Container */
+
+.container {
+    position: relative;
+    max-width: 460px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+
+/* Card */
+
+.card {
+    position: relative;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 20px 0 20px 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #0000001f;
+    transition: 0.3s ease;
+}
+
+.card.alt {
+    position: relative;
+    background: #ffffff;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 40px 0 40px 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #0000001f;
+    transition: 0.3s ease;
+}
+
+.card .title {
+    position: relative;
+    z-index: 1;
+    border-left: 5px solid #ed2553;
+    margin: 0 0 35px;
+    padding: 10px 0 10px 50px;
+    color: #ed2553;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card .input-container {
+    position: relative;
+    margin: 0 60px 50px;
+}
+
+.card .input-container input {
+    outline: none;
+    z-index: 1;
+    position: relative;
+    background: none;
+    width: 100%;
+    height: 60px;
+    border: 0;
+    color: #212121;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.card .input-container input:focus~.bar:before,
+.card .input-container input:focus~.bar:after {
+    width: 50%;
+}
+
+.card .input-container input:valid~label {
+    color: #4d4d4d;
+}
+
+.card .input-container label {
+    position: absolute;
+    top: -46%;
+    left: 0;
+    color: #757575;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 60px;
+    transition: 0.2s ease;
+}
+
+.card .input-container .bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #757575;
+    width: 100%;
+    height: 1px;
+}
+
+.card .input-container .bar:before,
+.card .input-container .bar:after {
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, #cd7672, #dc8665);
+    width: 0;
+    height: 2px;
+    transition: 0.25s ease;
+}
+
+.card .input-container .bar:before {
+    left: 50%;
+}
+
+.card .input-container .bar:after {
+    right: 50%;
+}
+
+.card .button-container {
+    margin: 0 60px;
+    text-align: center;
+}
+
+.card .input-container span {
+    position: absolute;
+    bottom: -20px;
+    left: 1px;
+}
+
+.card .button-container button {
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background: 0;
+    width: 240px;
+    border: 2px solid #e3e3e3;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.25s linear;
+}
+
+.card .button-container button span {
+    position: relative;
+    z-index: 1;
+    color: #ddd;
+    transition: 0.3s ease;
+}
+
+.card .button-container button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    background: #ed2553;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: -15px 0 0 -15px;
+    opacity: 0;
+    transition: 0.4s ease;
+}
+
+.card .button-container button:hover,
+.card .button-container button:active,
+.card .button-container button:focus {
+    border-color: #ed2553;
+}
+
+.card .button-container button:hover span,
+.card .button-container button:active span,
+.card .button-container button:focus span {
+    color: #ed2553;
+}
+
+.card .button-container button:active span,
+.card .button-container button:focus span {
+    color: #ffffff;
+}
+
+.card .button-container button:active:before,
+.card .button-container button:focus:before {
+    opacity: 1;
+    transform: scale(10);
+}
