@@ -41,7 +41,7 @@
             inpContSelector: '.input-container',
             errorSelector: '.form-message',
             rules: [
-                Validator.isRequired('#user-name'),
+                Validator.isRequired('#user-name', 'Vui lòng nhập tên người dùng'),
                 Validator.minLength('#password', 8)
             ],
             onSubmit: (data) => {
