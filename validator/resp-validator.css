@@ -1,91 +1,95 @@
-    /* Mobile & Tablet */
-    
-    @media (max-width: 1023px) {
-        .card {
-            overflow: hidden;
-            margin: calc(100% - 290px) auto;
-        }
-        .card.alt {
-            overflow: hidden;
-            margin: calc(100% - 290px) auto;
-        }
+/* Mobile & Tablet */
+
+@media (max-width: 1023px) {
+    .card {
+        overflow: hidden;
+        margin: calc(100% - 290px) auto;
     }
-    /* Tablet */
-    
-    @media (min-width: 740px) and (max-width: 1023px) {
-        .card {
-            overflow: hidden;
-            margin: calc(100% - 280px) auto;
-        }
-        .card.alt {
-            overflow: hidden;
-            margin: calc(100% - 280px) auto;
-        }
+    .card.alt {
+        overflow: hidden;
+        margin: calc(100% - 290px) auto;
     }
-    
-    @media (max-width: 1280px) and (min-width: 800px) {
-        .card {
-            overflow: hidden;
-            margin: calc(100% - 380px) auto;
-        }
-        .card.alt {
-            overflow: hidden;
-            margin: calc(100% - 380px) auto;
-        }
+}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .card {
+        overflow: hidden;
+        margin: calc(100% - 280px) auto;
     }
-    /* Mobile */
-    
-    @media (max-width: 739px) {
-        .card {
-            width: 320px;
-            overflow: hidden;
-            margin: calc(100% - 360px) auto;
-        }
-        .card .input-container label {
-            font-size: 20px;
-        }
-        .card .input-container input {
-            font-size: 18px !important;
-        }
-        .card .button-container button {
-            max-width: 200px !important;
-            font-size: 16px !important;
-        }
-        .card.alt {
-            width: 320px;
-            overflow: hidden;
-            margin: calc(100% - 360px) auto;
-        }
-        .card.alt .input-container label {
-            font-size: 20px;
-        }
-        .card.alt .input-container input {
-            font-size: 18px !important;
-        }
-        .card.alt .button-container button {
-            width: 200px !important;
-            font-size: 16px !important;
-            overflow: hidden;
-        }
+    .card.alt {
+        overflow: hidden;
+        margin: calc(100% - 280px) auto;
     }
-    
-    @media (min-width: 519px) and (max-width: 719px) {
-        .card {
-            width: 450px;
-            overflow: hidden;
-            margin: calc(100% - 422px) auto;
-        }
-        .card .button-container button {
-            width: 240px !important;
-            font-size: 24px !important;
-        }
-        .card.alt {
-            width: 450px;
-            overflow: hidden;
-            margin: calc(100% - 422px) auto;
-        }
-        .card.alt .button-container button {
-            width: 240px !important;
-            font-size: 24px !important;
-        }
+}
+
+@media (max-width: 1280px) and (min-width: 800px) {
+    .card {
+        overflow: hidden;
+        margin: calc(100% - 380px) auto;
     }
+    .card.alt {
+        overflow: hidden;
+        margin: calc(100% - 380px) auto;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .card {
+        width: 320px;
+        overflow: hidden;
+        margin: calc(100% - 360px) auto;
+    }
+    .card .input-container label {
+        font-size: 20px;
+    }
+    .card .input-container input {
+        font-size: 18px !important;
+    }
+    .card .button-container button {
+        max-width: 200px !important;
+        font-size: 16px !important;
+    }
+    .card.alt {
+        width: 320px;
+        overflow: hidden;
+        margin: calc(100% - 360px) auto;
+    }
+    .card.alt .input-container label {
+        font-size: 20px;
+    }
+    .card.alt .input-container input {
+        font-size: 18px !important;
+    }
+    .card.alt .button-container button {
+        width: 200px !important;
+        font-size: 16px !important;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 519px) and (max-width: 719px) {
+    .card {
+        width: 450px;
+        overflow: hidden;
+        margin: calc(100% - 422px) auto;
+    }
+    .card .button-container button {
+        width: 240px !important;
+        font-size: 24px !important;
+    }
+    .card.alt {
+        width: 450px;
+        overflow: hidden;
+        margin: calc(100% - 422px) auto;
+    }
+    .card.alt .button-container button {
+        width: 240px !important;
+        font-size: 24px !important;
+    }
+}
